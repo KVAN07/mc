@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'GothicA1';
+    src: url(../fonts/GothicA1-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'GothicA1';
+    src: url(../fonts/GothicA1-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../fonts/Webfonts/fa-light-300.ttf);
+    font-weight: 300;
+}
+.fal{
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+.phone::before{
+    content: '\f879';
+    font-style: normal;
+}
+.envelope::before{
+    content: '\f0e0';
+    font-style: normal;
+}
+.search::before{
+    content: '\f002';
+    font-style: normal;
+}
+.gamepad::before{
+    content: '\f8bc';
+    font-style: normal;
+}
+.key::before{
+    content: '\f084';
+    font-style: normal;
+}
+.lock::before{
+    content: '\f30d';
+    font-style: normal;
+}
